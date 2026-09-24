@@ -7,5 +7,6 @@ public class Ejemplo1 {
         IO.println("Hola me llamo " + nombre);
         IO.println("Estoy en casa");
         IO.println("Estoy en casa otra vez");
+        IO.println("Estoy en Clase");
     }
 }
