@@ -27,7 +27,7 @@ public class Ejercicio3 {
         volBal = ((4.0/3.0) * Math.PI * Math.pow(radBal,3));
         IO.println("El Volumen del Balón de Baloncesto es: " + volBal);
 
-        //Una vez calculamos el volumen de los balones usamos la biblioteca Math.max()
+        //Una vez calculamos el volumen de los balones usamos la biblioteca Math.max() para elegir el mayor
 
         volMax = Math.max(volFut, volBal);
         IO.println("El Balón con Mayor Volumen es: " + volMax);
