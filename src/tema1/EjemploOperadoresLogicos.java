@@ -29,6 +29,7 @@ public class EjemploOperadoresLogicos {
         edad = 18;
         altura = 145.0;
 
+
         //Comprobación de si puede o no subir al Dragón
         subir = ((edad>=12)&&(altura>=140.0));
         IO.println("El niño puede subir al Dragón: " + subir);
