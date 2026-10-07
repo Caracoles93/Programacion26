@@ -8,7 +8,7 @@ public class EjercicioClase1 {
             - 30% una prueba de clase a mitad de trimestre
             - 30% un exámen al final de la evaluación
             - 25% de prácticas de clase
-            - 15% evaluación formativa: participación en clase, lo bien que le caes al profesor, etc.
+            - 15% de Asistencia.
 
             Pide cada nota por teclado y muestra la nota final del trimestre
         */
