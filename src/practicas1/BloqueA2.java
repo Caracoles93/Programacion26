@@ -1,4 +1,4 @@
-package Practicas1;
+package practicas1;
 
 public class BloqueA2 {
     public static void main(String[] args){
