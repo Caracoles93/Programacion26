@@ -10,10 +10,11 @@ public class EjercicioCasa2 {
 
         numA = 10;
         numB = 3;
-        temp = numA; //Copiamos el valor del número A
 
-        numA = numB;
-        numB = temp;
+
+        numA = numA + numB;
+        numB = numA - numB;
+        numA = numA - numB;
 
         IO.println("El Número A pasa a ser: " + numA);
         IO.println("El Número B pasa a ser: " + numB);

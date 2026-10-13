@@ -22,7 +22,7 @@ public class BloqueA1 {
 
         // 4. A%(A*B*C/(B+C))
         int sol4 = A%(A*B*C/(B+C));
-        IO.println("La Solución del Ejercicio 3 es: " + sol4);
+        IO.println("La Solución del Ejercicio 4 es: " + sol4);
 
         // 5. B*B+C-B*(A%B)
         int sol5 = (B*B)+C-B*(A%B);
