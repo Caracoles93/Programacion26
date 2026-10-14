@@ -16,7 +16,7 @@ public class BloqueC6 {
         Los cinco primeros salen con la fórmula de arriba. Los apartados f y g no: esos números no son
         consecutivos, y los meses no son números.
         */
-        {
+
             int minimo = 0;
             int maximo = 0;
             int random = 0;
@@ -26,9 +26,6 @@ public class BloqueC6 {
             random = (int) (Math.random() * (maximo - minimo + 1)) + minimo;
 
             IO.println("El Número Aleatorio que ha salido es: " + random);
-        }
-        {
 
-        }
     }
 }
