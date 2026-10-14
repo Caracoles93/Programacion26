@@ -2,7 +2,7 @@ package practicas1;
 
 
 public class BloqueC5 {
-    public static final double pi = Math.PI;
+    static final double PI = Math.PI;
     public static void main (String[] args){
 
         /*
@@ -25,14 +25,14 @@ public class BloqueC5 {
         altura = 42.4;
         diametro = 15.5;
         radio = diametro / 2.0;
-        area = pi * (Math.pow(radio, 2));
+        area = PI * (Math.pow(radio, 2));
 
         IO.println("El Área del Cilindro es: " + area + " Cm");
 
 
         //Volumen de un Cilindro = PI * r^2 * h
 
-        volumen = pi * Math.pow(radio, 2) * altura;
+        volumen = PI * Math.pow(radio, 2) * altura; //IGUAL SERÍA volumen = area * altura; PORQUE ARRIBA YA CALCULAMOS
         IO.println("El Volumen del Cilindro es: " + volumen + " Cm");
     }
 }

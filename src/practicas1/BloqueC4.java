@@ -14,14 +14,16 @@ public class BloqueC4 {
         double interes = 0.0;
         double retencion = 0.0;
         double dineroTotal = 0.0;
+        double interesTotal = 0.0;
 
         dinero = 2000.0;
         interes = (dinero * 0.0275) / 2; //Otra forma, interes = ((dinero * 0.0275) * 6 ) / 12;
         retencion = (interes * 0.18) ;
         dineroTotal = (dinero + interes) - retencion;
+        interesTotal = interes - retencion;
 
 
         IO.println("Al cabo de 6 meses el dinero total que tendrá el cliente es de: " + dineroTotal + (" Euros"));
-
+        IO.println("Al cabo de 6 meses el interes total que tendrá el cliente es de: " + interesTotal + (" Euros"));
     }
 }
